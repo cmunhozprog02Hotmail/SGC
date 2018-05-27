@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.Infrastructure", "src\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.ApplicationCore", "src\SGC.ApplicationCore\SGC.ApplicationCore.csproj", "{98006B98-31B7-4956-AE84-A42D506742DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.UI.Web", "src\SGC.UI.Web\SGC.UI.Web.csproj", "{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{98006B98-31B7-4956-AE84-A42D506742DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98006B98-31B7-4956-AE84-A42D506742DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98006B98-31B7-4956-AE84-A42D506742DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A6290B5-C991-4175-B99B-7543B68DC23C} = {9E34DC0A-4EE8-4564-A77C-E0A44B98CB46}
 		{98006B98-31B7-4956-AE84-A42D506742DF} = {2E360AA7-7195-482A-9555-24D38E1CC0F8}
+		{0D5DDD8C-5BC5-4A9C-B5AE-69084A26FADA} = {BCB58FB3-1474-4839-B75B-3425C3E10E6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B51C796-EAA5-4880-BCB0-944E837A7B3E}
