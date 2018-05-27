@@ -11,7 +11,7 @@ namespace SGC.Infrastructure.Migrations
         {
             migrationBuilder.CreateTable(
                 name: "Tb_cliente",
-                columns: table => new
+                columns: table => new 
                 {
                     ClienteId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
